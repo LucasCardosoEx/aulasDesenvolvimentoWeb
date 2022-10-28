@@ -1,12 +1,14 @@
 import "./App.css"
-import Paragrafo from "./components/Paragrafo"
-import Titulo from "./components/Titulo"
+import Bio from "./components/Bio"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 function App() {
   return (
     <>
-      <Titulo />
-      <Paragrafo />
+      <Header />
+      <Bio nome="Felipe Brtt" />
+      <Footer />
     </>
   )
 }

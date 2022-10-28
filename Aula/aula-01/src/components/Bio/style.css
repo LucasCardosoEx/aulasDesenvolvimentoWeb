@@ -1,0 +1,8 @@
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  gap: 40px;
+}
