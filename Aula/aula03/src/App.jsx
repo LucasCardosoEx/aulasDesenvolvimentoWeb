@@ -20,7 +20,7 @@ function App() {
 
     <>
       <h1> Inputs Controlados</h1>
-      <h2> Informação Digitada: {textoDigitado} </h2>
+      <h1> Informação Digitada: {textoDigitado} </h1>
       <input
         type="text"
         placeholder='Digite seu texto aqui'
