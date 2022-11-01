@@ -15,7 +15,7 @@ const Agua = () => {
         setCopo(copo + 1)
         setTotal(ml * (copo + 1))
         metaDiaria("");
-        setRegistro(date + registro)
+        setRegistro(`${date} ${registro}`)
     }
 
     const resetar = () => {
@@ -59,7 +59,11 @@ const Agua = () => {
             <h3>{total}ml</h3>
             <h3>Meta diária: {meta}ml</h3>
             <h3>{mensagem}</h3>
-            <h3>Histórico:{registro}</h3>
+            <h3>Histórico</h3>
+
+            <div className="historico">
+                <p>{registro}</p>
+            </div>
         </div>
     )
 }
