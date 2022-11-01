@@ -14,3 +14,7 @@ div {
 .titulo {
   color: rgb(0, 128, 255);
 }
+
+.historico {
+  width: 150px;
+}
